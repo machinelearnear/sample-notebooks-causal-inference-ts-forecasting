@@ -1,0 +1,33 @@
+# To install:
+# curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+# bash Mambaforge-$(uname)-$(uname -m).sh
+#   $ mamba env create -f environment.yml
+#   $ conda activate <name>
+name: machinelearnear-ts-causal-inference
+channels:
+  - pytorch
+  # - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - nb_conda_kernels
+  - ipykernel
+  - ipywidgets
+  - gh
+  - cmake
+  - openblas
+  - pybind11
+  - scikit-build
+  - pytorch
+  - pip
+  - pip:
+    - transformers
+    - accelerate
+    - datasets
+    - dowhy
+    - gluonts[pro]
+    - numpy
+    - tensorboard
+    - typer
+    - joblib
+    # - -r requirements.txt
