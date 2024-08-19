@@ -30,4 +30,6 @@ dependencies:
     - tensorboard
     - typer
     - joblib
+    - sagemaker
+    - boto3
     # - -r requirements.txt

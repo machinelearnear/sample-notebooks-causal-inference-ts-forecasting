@@ -9,3 +9,5 @@ gluonts[pro]
 tensorboard
 typer
 joblib
+sagemaker
+boto3
