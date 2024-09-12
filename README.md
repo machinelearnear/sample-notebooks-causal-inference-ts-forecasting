@@ -2,19 +2,23 @@
 Sample set of notebooks that explore time-series forecasting and causal inference. We use [AutoGluonTS](https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-quick-start.html), [Chronos](https://github.com/amazon-science/chronos-forecasting?tab=readme-ov-file), [Uni2TS](https://github.com/SalesforceAIResearch/uni2ts/tree/main), [DoWhy](https://github.com/py-why/dowhy), and others.
 
 ## 📖 Quick Index
-* [Approach](#approach)
-  - [Structure](#structure)
-  - [Modularity](#modularity)
-* [Setup](#setup)
-* [Model deployment as API](#usage)
-  - [Chronos](#docker-server)
-  - [Server/Client approach](#serverclient-approach)
-  - [Local approach](#local-approach-running-on-mac)
-* [Pre-training & fine-tuning](#command-line-usage)
-  - [Chronos](#model-parameters)
-  - [Moirai](#generation-parameters)
-* [Model benchmarking](#benchmarking)
+* [Time-series forecasting frameworks](#time-series-forecasting-frameworks)
+  - [AutoGluonTS](#autogluonts)
+  - [Uni2TS](#uni2ts)
+* [Time-series forecasting models & research](#time-series-forecasting-models--research)
+  - [KAN4TSF: Are KAN and KAN-based models Effective for Time Series Forecasting?](#kan4tsf-are-kan-and-kan-based-models-effective-for-time-series-forecasting)
+* [Environment setup](#environment-setup)
+* [Model deployment as API](#model-deployment-as-api)
+  - [amazon/chronos-t5-large](#amazonchronos-t5-large)
+  - [Salesforce/moirai-1.0-R-large](#salesforcemoirai-10-r-large)
+* [Pre-training & fine-tuning](#pre-training--fine-tuning)
+  - [Chronos](#chronos)
+  - [moirai_1.0_R](#moirai_10_r)
+* [Benchmarking](#benchmarking)
+  - [TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods](#tfb-towards-comprehensive-and-fair-benchmarking-of-time-series-forecasting-methods)
+  - [Trying out time-series-based models on Google Colab ④: Amazon Chronos-T5](#trying-out-time-series-based-models-on-google-colab--amazon-chronos-t5)
 * [Resources](#resources)
+* [License](#license)
 
 ## Time-series forecasting frameworks
 
